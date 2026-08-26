@@ -1,0 +1,7 @@
+{
+  "lora_model": "/kaggle/input/datasets/anngaltiz/aimogrpo200",
+  "eval_dataset": "calc_gsm8k",
+  "total": 1319,
+  "correct": 1026,
+  "accuracy": 77.79
+}
