@@ -11,7 +11,7 @@
 - 原始 `training_args.bin` 经静态 pickle 指令检查确认优化器为 `paged_adamw_8bit`，未执行反序列化；源码也记录此值。8-bit 优化器不表示 4-bit 权重量化。
 - 本地 checkpoint-200 权重 SHA256：`f91d018efeed7885cacb8c7ca9276613eebc3fd14180845c8cff412e159669c2`。
 - 本地 checkpoint-250／最终权重 SHA256：`c435ed5f71441f17e8fdeee9776efaf77d67685e77d5be19508ac6505d56b4a3`。
-- 两个适配器各 58,229,536 bytes；`artifacts/` 被 Git 忽略，包含适配器、tokenizer 与模板。本地保存不等于提供了公开下载。
+- 两个适配器各 58,229,536 bytes；`artifacts/` 被 Git 忽略，包含适配器、tokenizer 与模板。已通过 Release 单独发布找回的导出文件，下载和校验见 [MODEL_ARTIFACTS.md](MODEL_ARTIFACTS.md)。公开附件不等于已验证兼容性、模型质量或历史分数归属。
 - 历史评估文件未记录权重哈希，不能仅凭路径名称中的 `200` 认定它就是找回的 checkpoint-200。
 
 ## 数据和评分

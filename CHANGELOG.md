@@ -9,4 +9,4 @@
 - Add a separate strict numeric evaluation protocol with a true base-model branch, explicit parse outcomes, and per-run provenance.
 - Add read-only archive verification, 12 offline regression tests, and GitHub Actions checks.
 
-No new training or model inference results are claimed in this version. Adapter binaries and the repository's About text are deferred for a separate update.
+No new training or model inference results are claimed in this version. Recovered adapter ZIPs, checksums, and provenance cards are now provided as Release assets. The About text describes evidence and tooling without unverified performance claims.

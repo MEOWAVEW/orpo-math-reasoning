@@ -100,7 +100,7 @@ GPU 环境依赖见 `requirements.txt`；[恢复版本记录](requirements-recov
 - 尚缺基座／SFT 同口径对照、训练数据构造 revision、完整环境锁定和评估权重映射。
 - AIMO 为项目动机，未提供比赛成绩。项目范围以代码和归档证据为准，个人分工仍需作者确认。
 
-代码采用 MIT 许可；数据和模型分别遵循上游许可，仓库的 MIT 不自动覆盖它们。恢复权重目前仅保存在本地、被 Git 忽略，尚未发布下载地址。详见 [核验发现与待补项](docs/EVIDENCE_REVIEW.md)。
+代码采用 MIT 许可；数据和模型分别遵循上游许可，仓库的 MIT 不自动覆盖它们。恢复权重通过 [v0.1.0-evidence Release](https://github.com/MEOWAVEW/orpo-math-reasoning/releases/tag/v0.1.0-evidence) 单独提供下载，包含模型说明和 SHA256；详见 [附件下载及校验](docs/MODEL_ARTIFACTS.md)。权重二进制不进入主分支。详见 [核验发现与待补项](docs/EVIDENCE_REVIEW.md)。
 
 ## 项目来源
 

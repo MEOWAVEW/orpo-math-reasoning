@@ -1,0 +1,60 @@
+{
+  "release_tag": "v0.1.0-evidence",
+  "code_commit": "ac2a329475683be55de7a480a31358f91e2a0f3a",
+  "scope": "Recovered adapters and tokenizer exports; base-model weights are not included. No new training or inference performed.",
+  "historical_score_mapping": "Unresolved: historical evaluation adapter hashes were not recorded. These exports cannot be claimed to reproduce the archived 79%-80% results.",
+  "archives": {
+    "recovered-checkpoint-200.zip": {
+      "bytes": 57785289,
+      "sha256": "e4251c0451f8c94d89fce3c0921fb5dc7e259794390437d845308878ef2fab38",
+      "files": {
+        "adapter_config.json": {
+          "bytes": 1097,
+          "sha256": "718924da2b3a1319524bdc12d368fd429b5eb533e7535a9e0f27d3de38e589c4"
+        },
+        "adapter_model.safetensors": {
+          "bytes": 58229536,
+          "sha256": "f91d018efeed7885cacb8c7ca9276613eebc3fd14180845c8cff412e159669c2"
+        },
+        "chat_template.jinja": {
+          "bytes": 7756,
+          "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+        },
+        "tokenizer.json": {
+          "bytes": 19989343,
+          "sha256": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4"
+        },
+        "tokenizer_config.json": {
+          "bytes": 1098,
+          "sha256": "83febe739ecefd99f984f546dfdc10149cedf293b9ee0291b99894341188b613"
+        }
+      }
+    },
+    "recovered-checkpoint-250.zip": {
+      "bytes": 57790198,
+      "sha256": "049e2ab54c2ebab6678a500bd1d2a00d0a5d6c0da4a3e5254228d2b7659913b8",
+      "files": {
+        "adapter_config.json": {
+          "bytes": 1097,
+          "sha256": "718924da2b3a1319524bdc12d368fd429b5eb533e7535a9e0f27d3de38e589c4"
+        },
+        "adapter_model.safetensors": {
+          "bytes": 58229536,
+          "sha256": "c435ed5f71441f17e8fdeee9776efaf77d67685e77d5be19508ac6505d56b4a3"
+        },
+        "chat_template.jinja": {
+          "bytes": 7756,
+          "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+        },
+        "tokenizer.json": {
+          "bytes": 19989343,
+          "sha256": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4"
+        },
+        "tokenizer_config.json": {
+          "bytes": 1098,
+          "sha256": "83febe739ecefd99f984f546dfdc10149cedf293b9ee0291b99894341188b613"
+        }
+      }
+    }
+  }
+}
