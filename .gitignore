@@ -9,3 +9,7 @@ test_result/
 *.mp4
 *.pptx
 outputs/
+
+# Local recovered weights; publish separately after confirming base-model terms.
+artifacts/
+.recovery/

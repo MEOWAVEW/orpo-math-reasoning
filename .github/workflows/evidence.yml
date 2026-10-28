@@ -1,0 +1,28 @@
+name: Evidence and offline checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Validate archived evidence without models or third-party dependencies
+        run: python scripts/audit_evidence.py
+      - name: Check scorer, split isolation, and baseline setup
+        run: python -m unittest discover -s tests -v
+      - name: Check source syntax
+        run: python -m compileall -q scripts tests
+      - name: Ensure checks did not mutate tracked artifacts
+        run: git diff --exit-code

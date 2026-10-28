@@ -1,0 +1,127 @@
+[
+  {
+    "path": "evidence/evaluation/calc/dataset_revisions.json",
+    "bytes": 320,
+    "sha256": "7deaacfc7af1f26985bca03f281e936909c1825a3bfa63085ced1df57ce504d0"
+  },
+  {
+    "path": "evidence/evaluation/calc/original_eval.py",
+    "bytes": 19688,
+    "sha256": "c66f2d3ee360de6c8717fd8bc14178026c97b69eff833f4b7aaf1c5a82a88aa8"
+  },
+  {
+    "path": "evidence/evaluation/calc/overlap_ids.json",
+    "bytes": 3,
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  {
+    "path": "evidence/evaluation/calc/predictions_raw.jsonl",
+    "bytes": 8251476,
+    "sha256": "27255c6a7bbe70892f3e78dfc730cb8806f1a75ee52194c185e8a5e8c4878a9e"
+  },
+  {
+    "path": "evidence/evaluation/calc/summary_original.json",
+    "bytes": 155,
+    "sha256": "690a74e03f7d10c96764764b79da273cd2005521be714df2a6d6a73c0c5aa007"
+  },
+  {
+    "path": "evidence/evaluation/gsm8k_d1/dataset_revisions.json",
+    "bytes": 184,
+    "sha256": "9e68fc2dc13e6b8d926105c02aa503da85da5eff5aa3c1fecce7de1e4582f26b"
+  },
+  {
+    "path": "evidence/evaluation/gsm8k_d1/original_eval.py",
+    "bytes": 19688,
+    "sha256": "c66f2d3ee360de6c8717fd8bc14178026c97b69eff833f4b7aaf1c5a82a88aa8"
+  },
+  {
+    "path": "evidence/evaluation/gsm8k_d1/overlap_ids.json",
+    "bytes": 1707,
+    "sha256": "77570388f35f6309ac4edf6f6911ac46f4a835ce85f284f654dc25a6371a310a"
+  },
+  {
+    "path": "evidence/evaluation/gsm8k_d1/predictions_raw.jsonl",
+    "bytes": 24235657,
+    "sha256": "dd10b63db65bba29d78e54a9f4b3534cf1d8a6b5e8ac0dfb4baa04e8352d3e09"
+  },
+  {
+    "path": "evidence/evaluation/gsm8k_d1/summary_original.json",
+    "bytes": 167,
+    "sha256": "621f2f1841f3e682fbf940836749042b60a6ff4f3613a16da43e5e6a7d6da603"
+  },
+  {
+    "path": "evidence/evaluation/gsm8k_d2/dataset_revisions.json",
+    "bytes": 184,
+    "sha256": "9e68fc2dc13e6b8d926105c02aa503da85da5eff5aa3c1fecce7de1e4582f26b"
+  },
+  {
+    "path": "evidence/evaluation/gsm8k_d2/original_eval.py",
+    "bytes": 19688,
+    "sha256": "c66f2d3ee360de6c8717fd8bc14178026c97b69eff833f4b7aaf1c5a82a88aa8"
+  },
+  {
+    "path": "evidence/evaluation/gsm8k_d2/overlap_ids.json",
+    "bytes": 1139,
+    "sha256": "3f924e9879f7758617de619abf65cfdf42575b60381bafcf3ab5b373f5a052ce"
+  },
+  {
+    "path": "evidence/evaluation/gsm8k_d2/predictions_raw.jsonl",
+    "bytes": 24203442,
+    "sha256": "f149085555c2f0c0ac9a3752c655b18673905bf96fd2d1b780162fd267de7638"
+  },
+  {
+    "path": "evidence/evaluation/gsm8k_d2/summary_original.json",
+    "bytes": 167,
+    "sha256": "46ed28f0e5b8238eb9ea75a35b381cd868e0f15206121e472bb5451626d1a1ca"
+  },
+  {
+    "path": "evidence/training/run250/README.md",
+    "bytes": 1938,
+    "sha256": "f65fe2861cd4894f499b3c9497cb359ba92ebe0c8af7f7e0ebf66af199b1fe6a"
+  },
+  {
+    "path": "evidence/training/run250/adapter_config.json",
+    "bytes": 1097,
+    "sha256": "718924da2b3a1319524bdc12d368fd429b5eb533e7535a9e0f27d3de38e589c4"
+  },
+  {
+    "path": "evidence/training/run250/checkpoint-250/trainer_state.json",
+    "bytes": 38290,
+    "sha256": "2578719ff274bcc103c93c99b15deb8d0d6fccd9379c772544e26073aff9942d"
+  },
+  {
+    "path": "evidence/training/run250/log_history.json",
+    "bytes": 36427,
+    "sha256": "8bb1512d48a3e75785bf4fbe65e985899e8e2c87c7db764adf17eabf5b970fb5"
+  },
+  {
+    "path": "evidence/training/run250/original_training.py",
+    "bytes": 19178,
+    "sha256": "1f2a230c438e7e1c5762b397293d229d8731f7b1928f989753ff044976ea7477"
+  },
+  {
+    "path": "evidence/training/run250/run_config.json",
+    "bytes": 859,
+    "sha256": "e300b2cd6412bf99f07df55591a420983dae70bd3e034a67117a4f18851234df"
+  },
+  {
+    "path": "evidence/training/run250/training_args.bin",
+    "bytes": 5457,
+    "sha256": "5a40395d4158051da24b2194848761ecbee814b656564232e9ded93f5229f2b9"
+  },
+  {
+    "path": "evidence/training/run250/training_args_selected.json",
+    "bytes": 429,
+    "sha256": "9dd5363c6dc4817f8082f1ea014077dc7551f3c5b85d846c991e7058fd1e782b"
+  },
+  {
+    "path": "evidence/training/run250/validation_results.json",
+    "bytes": 670,
+    "sha256": "e79b9e01787a463d5620a91b0df1fa7b0e8068f064b1622985a3623ea2b4079f"
+  },
+  {
+    "path": "evidence/training/run250/weight_manifest.json",
+    "bytes": 265,
+    "sha256": "d40f13c47b334235d88eed56ca38c9e7f8c64292f44c5b1f628f4054f076acd0"
+  }
+]

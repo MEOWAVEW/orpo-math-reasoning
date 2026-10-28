@@ -1,0 +1,1 @@
+{"repos": [{"repoId": "MU-NLPC/Calc-gsm8k", "repoType": "dataset", "commitHash": "a73d4e22e7e7c4c0d2294d4747b783de481866d4", "filePaths": ["data/test-00000-of-00001-cd73a5a625e99cb9.parquet", "data/train-00000-of-00001-89011c0cd839842a.parquet", "data/validation-00000-of-00001-6cbeab87c9742adc.parquet", "README.md"]}]}

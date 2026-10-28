@@ -1,0 +1,10 @@
+{
+  "checkpoint-200": {
+    "bytes": 58229536,
+    "sha256": "f91d018efeed7885cacb8c7ca9276613eebc3fd14180845c8cff412e159669c2"
+  },
+  "checkpoint-250": {
+    "bytes": 58229536,
+    "sha256": "c435ed5f71441f17e8fdeee9776efaf77d67685e77d5be19508ac6505d56b4a3"
+  }
+}

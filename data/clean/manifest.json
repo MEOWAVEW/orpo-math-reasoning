@@ -1,0 +1,29 @@
+{
+  "purpose": "New experiment inputs; no training or new accuracy claimed.",
+  "method": "Known suffix removal, whitespace collapse, casefold; first record per question.",
+  "seed": 42,
+  "source_rows": 2803,
+  "excluded_eval_overlap_rows": 20,
+  "duplicate_rows_removed": 4,
+  "train_rows": 2579,
+  "validation_rows": 200,
+  "source_sha256": "5dbb7e158cb1117924b00a8bb717bc1ad4b1dbc5ee9fc1687a110c7b69165c18",
+  "excluded_sources": [
+    {
+      "path": "evidence/evaluation/calc/predictions_raw.jsonl",
+      "sha256": "27255c6a7bbe70892f3e78dfc730cb8806f1a75ee52194c185e8a5e8c4878a9e"
+    },
+    {
+      "path": "evidence/evaluation/gsm8k_d1/predictions_raw.jsonl",
+      "sha256": "dd10b63db65bba29d78e54a9f4b3534cf1d8a6b5e8ac0dfb4baa04e8352d3e09"
+    },
+    {
+      "path": "evidence/evaluation/gsm8k_d2/predictions_raw.jsonl",
+      "sha256": "f149085555c2f0c0ac9a3752c655b18673905bf96fd2d1b780162fd267de7638"
+    }
+  ],
+  "output_sha256": {
+    "val": "6a91ec7a269c7b597472fcfaf5f03cc1e873e19e72222f74bfed0bd8808d92c7",
+    "train": "dde780337896cd700bb44eee5ed594bc5aeea764defd8a19ebf5e3319a56212f"
+  }
+}

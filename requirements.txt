@@ -12,3 +12,5 @@ packaging>=24.0
 psutil>=5.9.8
 math-verify
 loguru
+bitsandbytes
+tqdm

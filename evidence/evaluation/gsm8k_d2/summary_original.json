@@ -1,0 +1,7 @@
+{
+  "lora_model": "/kaggle/input/datasets/gongyq1031/aimocheckpoint200",
+  "eval_dataset": "gsm8k_distilled",
+  "total": 3728,
+  "correct": 2962,
+  "accuracy": 79.45
+}

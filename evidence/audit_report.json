@@ -1,0 +1,86 @@
+{
+  "scope": "Offline archive aggregation; no inference or rescoring performed.",
+  "evaluations": {
+    "gsm8k_d1": {
+      "records": 3727,
+      "correct_saved_flags": 2981,
+      "accuracy_percent_saved_flags": 79.98,
+      "unique_questions": 3727,
+      "strict_jsonl_errors": [],
+      "original_summary_matches": true,
+      "training_overlap_questions": 11,
+      "validation_overlap_questions": 1,
+      "after_text_overlap_exclusion": {
+        "records": 3715,
+        "correct_saved_flags": 2973,
+        "accuracy_percent_saved_flags": 80.03,
+        "note": "Diagnostic reuse of saved flags; not a newly validated benchmark result."
+      }
+    },
+    "gsm8k_d2": {
+      "records": 3728,
+      "correct_saved_flags": 2962,
+      "accuracy_percent_saved_flags": 79.45,
+      "unique_questions": 3728,
+      "strict_jsonl_errors": [],
+      "original_summary_matches": true,
+      "training_overlap_questions": 6,
+      "validation_overlap_questions": 2,
+      "after_text_overlap_exclusion": {
+        "records": 3720,
+        "correct_saved_flags": 2959,
+        "accuracy_percent_saved_flags": 79.54,
+        "note": "Diagnostic reuse of saved flags; not a newly validated benchmark result."
+      }
+    },
+    "calc": {
+      "records": 1319,
+      "correct_saved_flags": 1026,
+      "accuracy_percent_saved_flags": 77.79,
+      "unique_questions": 1319,
+      "strict_jsonl_errors": [],
+      "original_summary_matches": true,
+      "training_overlap_questions": 0,
+      "validation_overlap_questions": 0,
+      "after_text_overlap_exclusion": {
+        "records": 1319,
+        "correct_saved_flags": 1026,
+        "accuracy_percent_saved_flags": 77.79,
+        "note": "Diagnostic reuse of saved flags; not a newly validated benchmark result."
+      }
+    }
+  },
+  "data": {
+    "train": {
+      "rows": 2603,
+      "unique_questions": 2600,
+      "sha256": "710e8620d7049c3f275f4b4439e89dbcafaee0599133af234eea8970f8e5dd15"
+    },
+    "val": {
+      "rows": 200,
+      "unique_questions": 200,
+      "sha256": "53c38142200228155d6f2dc812562b31b251d1747afcb6bb31fcfc169aac2075"
+    }
+  },
+  "overlap": {
+    "method": "Strip two known instruction suffixes, collapse whitespace, casefold; no fuzzy matching.",
+    "train_val_questions": 1,
+    "gsm8k_d1_d2_questions": 0
+  },
+  "weights": {
+    "checkpoint-200": {
+      "bytes": 58229536,
+      "sha256": "f91d018efeed7885cacb8c7ca9276613eebc3fd14180845c8cff412e159669c2"
+    },
+    "checkpoint-250": {
+      "bytes": 58229536,
+      "sha256": "c435ed5f71441f17e8fdeee9776efaf77d67685e77d5be19508ac6505d56b4a3"
+    }
+  },
+  "training": {
+    "step": 250,
+    "load_in_4bit": false,
+    "train_runtime_seconds": 7168.745,
+    "evaluation_adapter_mapping": "unresolved: historical eval paths name 200; recovered final is 250"
+  }
+}

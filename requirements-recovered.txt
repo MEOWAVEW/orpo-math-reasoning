@@ -1,0 +1,21 @@
+# Versions recorded in the recovered run's generated model card.
+# Partial provenance record, NOT a complete lock or validated installation.
+# Recorded torch build: 2.10.0+cu128; use a compatible NVIDIA CUDA environment.
+torch==2.10.0
+transformers==5.5.3
+peft==0.18.1
+trl==1.0.0
+datasets==4.8.4
+tokenizers==0.22.2
+# Required packages whose historical versions were not recovered:
+accelerate
+bitsandbytes
+matplotlib
+sentencepiece
+safetensors
+math-verify
+loguru
+tqdm
+rich
+packaging
+psutil

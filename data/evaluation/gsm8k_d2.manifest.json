@@ -1,0 +1,7 @@
+{
+  "archive": "gsm8k_d2",
+  "source_sha256": "f149085555c2f0c0ac9a3752c655b18673905bf96fd2d1b780162fd267de7638",
+  "samples_sha256": "0f374d57f907d7edc3ed201b79b126ffacf3f8945c5efe923fe3519f6a7929ca",
+  "records": 3728,
+  "note": "Archived question/gold content only; no historic predictions or correctness flags."
+}

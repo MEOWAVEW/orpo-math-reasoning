@@ -1,0 +1,3 @@
+# Preserve recovered evidence byte-for-byte, including original whitespace.
+evidence/** -text -whitespace
+data/**/*.jsonl -text
